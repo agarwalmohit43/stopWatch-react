@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.actionBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  border-radius: 18rem;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 300px) {
+  .actionBtns {
+    flex-direction: column;
+  }
+}
